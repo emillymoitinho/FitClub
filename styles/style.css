@@ -162,5 +162,95 @@ header#container::before {
     z-index: -1;
 }
 
+/* SECTION EXPLORE */
+
+div.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--branco);
+}
+
+div.nav h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+div.arrow {
+    display: flex;
+    gap: 2rem;
+}
+
+div.arrow span {
+    padding: 0 6px;
+    font-size: 1.5rem;
+    border: 2px solid var(--branco);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+div.arrow span:hover {
+    color: var(--laranja);
+    border-color: var(--laranja);
+
+}
+
+/* CARDS */
+
+article.container_card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+aside.card {
+    background-color: var(--fundo);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+aside.card:hover {
+    background-color: var(--cinza_escuro);
+    border-color: var(--laranja);
+}
+
+aside.card span {
+    color: var(--branco);
+    background-color: var(--laranja_escuro);
+    padding: 3px 8px;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+aside.card h4 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+} 
+
+aside.card p {
+    color: var(--cinza);
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+aside.card a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+aside.card a:hover {
+    color: var(--laranja);
+    transition: 0.3s;
+}
+
 
   
