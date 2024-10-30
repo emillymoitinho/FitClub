@@ -151,7 +151,7 @@ header#container::before {
     content: "FITNESS";
     position: absolute;
     bottom: 4rem;
-    right: 15rem;
+    right: 20rem;
     
     font-size: 10rem;
     font-weight: 800;
@@ -251,6 +251,51 @@ aside.card a:hover {
     color: var(--laranja);
     transition: 0.3s;
 }
+
+/* CLASS */
+
+section#theclass {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+
+.img_class {
+    position: relative;
+}
+
+.img_class > .image1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+.img_class > .image2 {
+    position: absolute;
+    left: -30px;
+    bottom: -60px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.content_class {
+    padding-top: 3rem;
+}
+
+.content_class h2 {
+    color: var(--branco);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.content_class p {
+    color: var(--cinza);
+    margin-bottom: 3rem
+}
+
 
 
   
