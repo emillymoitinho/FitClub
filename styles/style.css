@@ -1,0 +1,87 @@
+@charset "UTF-8"; /* Padrão de codificação  utilizado para suportar uma grande quantidade de caracteres, como caracteres especiais e acentuações. Ele é usado especialmente em idiomas que contém acentos, como o português*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap'); /* Importação da Fonte Poppins*/
+
+:root {
+    --fundoblack: #111317;
+    --fundo: #1f2125;
+    --cinza_escuro: #35373b;
+    --laranja: #f9ac54;
+    --laranja_escuro: #d79447;
+    --cinza: #d1d5db;
+    --branco: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body,html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--fundoblack);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+
+div.logo {
+    max-width: 150px;
+}
+
+ul.links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+li.link a {
+    position: relative;
+    padding-bottom: 10px;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.link a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--laranja);
+    transition: 0.3s;
+}
+
+.link a:hover::after {
+    width: 50%;
+}
+
+.botao {
+    padding: 15px 20px;
+    font-size: 20px;
+    color: var(--branco);
+    background-color: var(--laranja);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botao:hover {
+    background-color: var(--laranja_escuro);
+}
+
+
+  
