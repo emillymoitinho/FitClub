@@ -32,7 +32,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2.5rem;
+    padding: 2rem;
+    margin: auto;
+    max-width: 1200px;
 }
 
 div.logo {
@@ -81,6 +83,83 @@ li.link a {
 
 .botao:hover {
     background-color: var(--laranja_escuro);
+}
+
+/* HEADER */
+
+.pattern {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 1rem;
+}
+
+header#container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+    color: var(--branco);
+}
+
+div.content h4 {
+    color: var(--laranja);
+    font-weight: 600;
+}
+
+div.content h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+}
+
+div.content h1 span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--branco);
+}
+
+div.content p {
+    color: var(--cinza);
+    margin-bottom: 2rem;
+
+}
+
+div.image {
+    display: flex;
+    align-items: center;
+}
+
+div.image img {
+    max-width: 350px;
+    margin: auto;
+}
+
+div.image::before {
+    content: "o";
+    position: absolute;
+    top: 65px;
+    left: 58%;
+    font-size: 40rem;
+    font-weight: 400;
+    line-height: 20rem;
+    color: var(--laranja);
+    opacity: 0.1;
+    z-index: -1;
+}
+
+header#container::before {
+    content: "FITNESS";
+    position: absolute;
+    bottom: 4rem;
+    right: 15rem;
+    
+    font-size: 10rem;
+    font-weight: 800;
+    line-height: 10rem;
+    
+    color: var(--white);
+    opacity: 0.05;
+    z-index: -1;
 }
 
 
