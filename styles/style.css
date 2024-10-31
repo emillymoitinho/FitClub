@@ -18,15 +18,24 @@
 }
 
 
-body,html {
-    width: 100vw;
-    height: 100vh;
-}
-
 body {
     font-family: "Poppins", sans-serif;
     background-color: var(--fundoblack);
 }
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--laranja);    /* color of the scroll thumb */
+    border-radius: 5px;       /* roundness of the scroll thumb */
+      /* creates padding around scroll thumb */
+  }
 
 nav {
     display: flex;
@@ -535,7 +544,6 @@ footer {
 
 div.logo img {
     max-width: 10rem;
-    margin-bottom: 3rem;
 }
 
 article.content_footer p {
