@@ -105,6 +105,7 @@ header#container {
 div.content h4 {
     color: var(--laranja);
     font-weight: 600;
+    margin-bottom: 1.5rem;
 }
 
 div.content h1 {
