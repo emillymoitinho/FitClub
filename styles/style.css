@@ -455,6 +455,143 @@ button.botao_price:hover {
     cursor: pointer;
 }
 
+/* MEMBER  */
+
+section.member {
+    background-color: var(--fundo);
+}
+
+article#container_member {
+    display: flex;
+}
+
+article#container_member > span {
+    font-size: 8rem;
+    margin-right: 2rem;
+    color: var(--laranja_escuro);
+    opacity: 55%;
+}
+
+div.member_content {
+    flex: 1;
+}
+
+div.member_content h4 {
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+div.member_content p {
+    color: var(--cinza);
+    margin-bottom: 1.5rem;
+}
+
+div.stars {
+    font-size: 1.5rem;
+    color: var(--laranja);
+    margin-bottom: 1.5rem;
+}
+
+div.footer_member {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.user {
+    display: flex;
+    gap: 2rem;
+}
+
+div.user img {
+    max-width: 5rem;
+    border-radius: 50%;
+}
+
+div.content h5 {
+    font-size: 1.5rem;
+    color: var(--branco);
+}
+
+div.arrows_member {
+    display: flex;
+    gap: 2rem;
+}
+
+div.arrows_member i {
+    color: var(--laranja);
+    font-size: 1.7rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+div.logo img {
+    max-width: 10rem;
+    margin-bottom: 3rem;
+}
+
+article.content_footer p {
+    color: var(--cinza);
+    margin-bottom: 3rem;
+}
+
+aside.social {
+    display: flex;
+}
+
+aside.social i {
+    color: var(--laranja);
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 1px solid var(--laranja);
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    transition: 0.5s;
+    
+}
+
+aside.social i:hover {
+    background-color: var(--laranja);
+    color: var(--branco);
+    
+}
+
+aside.social a {
+    text-decoration: none;
+    
+}
+
+article.content_footer h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--branco);
+    margin-bottom: 2.5rem;
+}
+
+article.content_footer > a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--cinza);
+    margin-bottom: 1rem;
+}
+
+article.content_footer > a:hover {
+    cursor: pointer;
+    color: var(--laranja);
+    transition: .5s;
+}
+
+
+
 
 
 
