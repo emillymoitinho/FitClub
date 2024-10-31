@@ -306,7 +306,7 @@ section#container_join h2 {
     margin-bottom: 1.5rem;
 }
 
-section#container_join p {
+section#container_join .p {
     color: var(--cinza);
     margin-bottom: 3rem;
     text-align: center;
@@ -318,6 +318,48 @@ div.image_join img {
     max-width: 100%;
     border-radius: 10px;
     margin-top: 3rem;
+}
+
+article.join_cards {
+    background-color: var(--fundo);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 70rem;
+    padding: 2rem;
+    margin: 0px 1.5rem;
+    border-radius: 15px;
+    position: relative;
+    top: -5rem;
+}
+
+aside.join_card {
+    display: flex;
+    align-items: center;
+    flex: 1 1 100px;
+}
+
+aside.join_card span {
+    color: var(--branco);
+    background-color: var(--laranja_escuro);
+    padding: 5px 15px;
+    margin-right: 15px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+div.join_content  {
+    text-align: left;
+}
+
+aside.join_card h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--branco);
+}
+
+aside.join_card p {
+    color: var(--cinza);
 }
 
   
