@@ -10,8 +10,9 @@ Esta landing page foi desenvolvida para fornecer uma interface moderna, atraente
 - CSS
 
 ## 📸 Screenshot
-![FitClub Landing Page Screenshot](images/1Screenshot)
-![FitClub Landing Page Screenshot](images/2Screenshot)
+![FitClub Landing Page Screenshot](images/1Screenshot.png)
+
+![FitClub Landing Page Screenshot](images/2Screenshot.png)
 
 ## 📫 Contato
 
