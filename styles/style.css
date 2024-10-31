@@ -590,6 +590,26 @@ article.content_footer > a:hover {
     transition: .5s;
 }
 
+div.credits {
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    padding: 10px;
+}
+
+div.credits a {
+    color: var(--laranja);
+    text-decoration: none;
+    margin-left: 3px;
+    
+}
+
+div.credits a:hover {
+    color: var(--laranja_escuro);
+    transition: .5s ease;
+}
+
 
 
 
